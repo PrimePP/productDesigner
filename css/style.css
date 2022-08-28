@@ -448,3 +448,299 @@ body{
     margin-top: 20px;
    
 }
+.ham-menu{
+    display: none;
+}
+
+/* *******************************************
+*******************************************
+******Mobile & Tablet Responsiveness ******
+*******************************************
+******************************************* */
+
+@media screen and (max-width:425px) {
+
+    .nav-bar{
+        width: 100vw;
+        margin: auto;
+    }
+    .nav-logo{
+        width: 150px;
+    }
+    .right-part{
+        display: none;
+    }
+    .ham-menu{
+        display: inline;
+        margin-left: 1100px;
+        
+    }
+    .ham-lines{
+        width: 40px;
+        position: relative;
+        top: -50px;
+    }
+    .sec-one{
+        width: 100vw;
+        margin: auto;
+        display: grid;
+    }
+    .designer-pic{
+        margin-left: 500px;
+    }
+    .intro-title{
+        font-size: 80px;
+        margin-left: 520px;
+    }
+    .heading-one{
+        font-size: 60px;
+        margin-left: 580px;
+    }
+    .para-one{
+        font-size: 20px;
+        margin-left: 520px;
+        white-space: pre-wrap;
+        padding: 40px 0px;
+    }
+    .about-btn{
+        margin-left: 680px;
+        font-size: 30px;
+    }
+    .sec-one-right{
+    }
+    .sec-one-left{
+
+    }
+
+    .sec-two{
+        width: 100vw; 
+    }
+    .sec-two-grey{
+        width: 30vw;
+    }
+    .top-cards{
+        display: grid;
+        margin-left: 400px;
+    }
+    .car-items{
+        margin-bottom: 50px;
+        width: 300px;
+        height: 500px;
+    }
+    .card-title{
+        font-size: 50px;
+    }
+    .card-desc{
+        font-size: 30px;
+    }
+    .know-more{
+        font-size: 20px;
+    }
+    .arrow-img{
+        
+    }
+    .bottom-cards{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .right-b-cards{
+        position: relative;
+        top: 100px;
+        left: -780px;
+    }
+    .rect-cards{
+        margin-left: 370px;
+    }
+    .sec-three{
+    }
+    .three-top{
+        display: flex;
+        flex-direction: column;
+        margin-left: 260px;
+    }
+    .three-desp{
+    }
+    .three-top-title{
+        font-size: 70px;
+        white-space: nowrap;
+    }
+    .three-para{
+        font-size: 40px;
+        margin-left: -40px;
+        margin: 40px 0px;
+    }
+    .three-btn{
+        font-size: 30px;
+        white-space: nowrap;
+        margin-left: 40px;
+    }
+    .three-bottom{
+        position: relative;
+    }
+
+    .three-card-items{
+        position: relative;
+    }
+    .top-first-card{
+        position: relative;
+        left: -180px;
+    }
+    .three-second-card{
+        position: relative;
+        left: -260px;
+        top: 1000px;
+        left: -680px;
+    }
+    .three-third-card{
+        position: relative;
+        left: -180px;
+    }
+    .three-fourth-card{
+        position: relative;
+        left: -660px;
+        top: 500px;
+    }
+
+    .sec-four{
+        margin-left: -1px;
+        margin-top: 1100px;
+    }
+    .footer-sect{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+   .nav-bar{
+    width: 100vw;
+   } 
+   .left-part{
+    width: 100px;
+   }
+   .nav-logo{
+    margin-left: 20px;
+   }
+   
+   .list-item{
+    margin-right: 5px;
+    position: relative;
+    top: -30px;
+    left: 330px;
+   }
+   .list-items{
+    display: inline;
+    margin: 0px 0px;
+   }
+   .sec-one{
+   
+   }
+   .sec-one-left{
+    margin-left: 20px;
+   }
+   .designer-pic{
+    width: 500px;
+    height: 1000px;
+   }
+   .sec-one-right{
+    margin-left: -140px;
+   }
+   .intro-title{
+    font-size: 40px;
+   }
+   .heading-one{
+
+   }
+   .para-one{
+    font-size: 25px;
+    padding:30px 0px;
+   }
+   .about-btn{
+    font-size: 20px;
+   }
+   .sec-two{
+    width: 100vw;
+   }
+   .sec-two-grey{
+    width: 43vw;
+    
+   }
+   .car-items{
+    margin: 0 10px;
+   }
+   .rect-l-title{
+    font-size: 100px;
+    margin-left: -125px;
+   }
+   .rect-l-para{
+    font-size: 20px;
+    margin-left: -170px;
+   }
+   .right-b-cards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    left: -350px;
+   }
+   .rect-cards{
+    width: 220px;
+   }
+
+
+   .three-desp{
+    margin-left: -60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+   .three-top-title{
+    padding: 20px 0px;
+    font-size: 40px;
+    padding-left: 20px;
+   }    
+   .three-para{
+    font-size: 17px;
+    margin-right: 40px;
+    white-space: nowrap;
+   }
+   .three-btn{
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 60px;
+   }
+   .top-first-card{
+    margin: 0;
+    position: relative;
+    top: 430px;
+    margin-left: 160px;
+   }
+   .three-second-card{
+    margin: 0;
+    margin-left: 160px;
+   }
+   .three-third-card{
+    margin: 0;
+    margin-left: 160px;
+   }
+   .three-fourth-card{
+    margin: 0;
+    margin-left: 160px;
+   }
+   .three-bottom{
+    display: grid;
+   }
+   .sec-four{
+    width: 100vw;
+    position: relative;
+    right: 300px;
+   }
+   .contact-four{
+    margin-left: -100px;
+   }
+  .line-break{
+
+  }
+  .footer-logo{
+   display: none;
+  }
+}
